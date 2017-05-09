@@ -28,12 +28,7 @@ namespace WFTetris
 
         private void Form1_KeyUp(object sender, KeyEventArgs e)
         {
-            //game.clearPiece(Tetris.Pieces.O, where);
-            //if (e.KeyCode == Keys.Left)
-            //    where.X -= 1;
-            //if (e.KeyCode == Keys.Right)
-            //    where.X += 1;
-            //game.setPiece(Tetris.Pieces.O, where);
+            game.KeyUp(sender, e);
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)

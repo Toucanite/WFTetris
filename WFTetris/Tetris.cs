@@ -105,15 +105,38 @@ namespace WFTetris
         }
         // public void newPiece()
 
-        public void Paint(object sender, PaintEventArgs e) {
+        public void KeyUp(object sender, KeyEventArgs e)
+        {
+            
+            clearPiece();
+
+            if (!(fallingPieceLocation.X >= 0) || !(fallingPieceLocation.Y == 20))
+            {
+                if (e.KeyCode == Keys.Left)
+                    fallingPieceLocation.X -= 1;
+            }
+            if (!(fallingPieceLocation.X <= 7) || !(fallingPieceLocation.Y == 20))
+            {
+                if (e.KeyCode == Keys.Right)
+                    fallingPieceLocation.X += 1;
+            }
+
+            setPiece();
+        }
+
+        public void Paint(object sender, PaintEventArgs e) 
+        {
+
 
             if (sw.ElapsedMilliseconds >= 500)
             {
-                clearPiece();
-                fallingPieceLocation.Y += 1;
-                sw.Restart();
-                setPiece();
-
+                if (!(fallingPieceLocation.Y == 20))
+                {
+                    clearPiece();
+                    fallingPieceLocation.Y += 1;
+                    sw.Restart();
+                    setPiece();
+                }
             }
 
             for (int line = 0; line <= lines; line++)

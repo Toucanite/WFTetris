@@ -7,3 +7,12 @@
 \\vmware-host\shared folders\documents\visual studio 2017\Projects\WFTetris\WFTetris\obj\Debug\WFTetris.exe
 \\vmware-host\shared folders\documents\visual studio 2017\Projects\WFTetris\WFTetris\obj\Debug\WFTetris.pdb
 \\vmware-host\shared folders\documents\visual studio 2017\Projects\WFTetris\WFTetris\obj\Debug\WFTetris.csprojResolveAssemblyReference.cache
+C:\Users\DONATIL_INFO\Documents\GitHub\WFTetris\WFTetris\bin\Debug\WFTetris.exe.config
+C:\Users\DONATIL_INFO\Documents\GitHub\WFTetris\WFTetris\obj\Debug\WFTetris.exe
+C:\Users\DONATIL_INFO\Documents\GitHub\WFTetris\WFTetris\obj\Debug\WFTetris.pdb
+C:\Users\DONATIL_INFO\Documents\GitHub\WFTetris\WFTetris\bin\Debug\WFTetris.exe
+C:\Users\DONATIL_INFO\Documents\GitHub\WFTetris\WFTetris\bin\Debug\WFTetris.pdb
+C:\Users\DONATIL_INFO\Documents\GitHub\WFTetris\WFTetris\obj\Debug\WFTetris.csprojResolveAssemblyReference.cache
+C:\Users\DONATIL_INFO\Documents\GitHub\WFTetris\WFTetris\obj\Debug\WFTetris.Form1.resources
+C:\Users\DONATIL_INFO\Documents\GitHub\WFTetris\WFTetris\obj\Debug\WFTetris.Properties.Resources.resources
+C:\Users\DONATIL_INFO\Documents\GitHub\WFTetris\WFTetris\obj\Debug\WFTetris.csproj.GenerateResource.Cache
